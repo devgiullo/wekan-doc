@@ -13,7 +13,7 @@ Official documentation [here](https://github.com/wekan/wekan/wiki/Docker#develop
 ## 2. Start MongoDB container
 
 ```shell
-docker run -d --restart=always --name wekan-db mongo:3.2.21
+docker run -d --restart=always --name wekan-db mongo:latest
 ```
 
 ## 3. Start Wekan container
